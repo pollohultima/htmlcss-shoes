@@ -7,6 +7,23 @@
 
 .container {
     width: 100%;
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 2;
+    font-size: 2rem;
+}
+
+.buttons a {
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px 15px;
+    margin-left: 40px;
+    text-decoration: none;
 }
 
 .shoes {
