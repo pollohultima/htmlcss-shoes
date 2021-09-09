@@ -2,23 +2,50 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
+}
+
+.shoes {
+    position: relative;
+    height: 100vh;
 }
 
 .casual {
     background-color: red;
-    height: 100vh;
 }
 
 .sneaker {
     background-color: green;
-    height: 100vh;
 }
 
 .allstars {
     background-color: yellow;
-    height: 100vh;
+}
+
+.sezione {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.caption {
+    width: 70%;
+    position: relative;
+    bottom: 40px;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
 }
