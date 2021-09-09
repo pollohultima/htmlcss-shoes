@@ -3,3 +3,22 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 100vw;
+}
+
+.casual {
+    background-color: red;
+    height: 100vh;
+}
+
+.sneaker {
+    background-color: green;
+    height: 100vh;
+}
+
+.allstars {
+    background-color: yellow;
+    height: 100vh;
+}
